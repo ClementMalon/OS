@@ -178,3 +178,39 @@ git add .
 ls
 git add my_script.sh
 git add .
+git init
+git checkout  local-branch-name
+git checkout -b local-branch-name
+git add .
+ls
+git init
+git checkout -b local-branch-name
+git add my_script.sh
+git commit -m "Initial commit"
+git remote add origin https://github.com/ClementMalon/OS.git
+git push origin remote-branch-name
+git push origin local-branch-name
+git init
+git remote add origin https://github.com/ClementMalon/OS.git
+git add my_script.sh
+git commit -m "Initial commit""
+git commit -m "Initial commit"
+git config --global user.email "clement.malon@yahoo.fr"
+git config --global user.name "Clement Malon"
+git commit -m "Initial commit"
+git push origin main
+git init
+git add my_script.sh
+git commit -m "Initial Commit"
+git init
+git add my_script.sh
+git commit -m "Initial commit"
+git branch --delete local-branch-name
+git branch 
+git branch -M main
+git branch 
+git branch --delete local-branch-name
+git branch --delete main
+git checkout local-branch-name
+git branch 
+git reset --hard origin/main
