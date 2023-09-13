@@ -234,3 +234,13 @@ git remote -v
 git push -u origin master
 git remote set-url origin https://github.com/ClementMalon/OS.git
 git push -u origin master
+git init
+git add .
+git commit -m "Initial commit"
+git branch 
+git origin -v
+git remote -v
+git push -u origin master
+cd ~/.ssh
+ssh-keygen -o -t rsa -C "clement.malon@yahoo.fr"
+cat id_rsa.pub
