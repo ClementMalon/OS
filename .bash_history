@@ -214,3 +214,23 @@ git branch --delete main
 git checkout local-branch-name
 git branch 
 git reset --hard origin/main
+git branch
+git checkout -b master
+git branch 
+git branch -d main
+git branch 
+ls
+git add my_script.sh
+git commit -m "Initial commit"
+git add .
+git commit -m "Test commit"
+git remote add origin https://github.com/ClementMalon/OS.git
+git push -u origin master
+git remote -v
+git remote
+get remote set-url origin git@github.com:ClementMalon/OS.git
+git remote set-url origin git@github.com:ClementMalon/OS.git
+git remote -v
+git push -u origin master
+git remote set-url origin https://github.com/ClementMalon/OS.git
+git push -u origin master
