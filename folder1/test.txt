@@ -1,1 +1,0 @@
-This file is used to test grep and wc command lines for my homework
